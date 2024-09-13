@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+  font-family: 'MyLogoFont';
+  src: url('../assets/halimun/Halimun.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Fira Code", monospace;
+  --color-yellow: #FFD93B;
+  --color-yellow-accent: #FED21C;
+  --color-blue: #00C4CC;
+  --color-light-purple: #A548FF;
+  --color-dark-purple: #6422B8;
+  --color-pink: #FF6DC2;
+  --color-orange: #FFA53B;
+  --navbar-height: 50px;
+}
+/* Sections */
+
+.sections-main-container {}
+
+.section {}
+
+.section-welcome {
+    background-color: var(--color-yellow);
+}
+
+.section-skills {
+    background-color: white;
+
+}
+
+.section-about-me {
+    background-color: var(--color-dark-purple);
+}
+
+.section-projects {
+    background-color: var(--color-yellow);
+}
+
+.section-blog{
+    background-color: var(--color-dark-purple);
+}
+
+.sections-contact { 
+    background-color: var(--color-orange);
+}
+
+
+
+
+.welcome-section-container {}
+
+
+/* Welcome Row 1 */
+
+.welcome-row-1 {
+}
+
+.welcome-text {}
+
+.welcome-logo {}
+
+.welcome-background-img {
+
+}
+
+
+/* Welcome Row 2 */
+
+.welcome-row-2 {}
+
+.intro-text {}
+
+.intro-background-img {}
+
+.intro-cta-button{}
+
+
+/* Welcome Row 3 */
+
+.side-html-img {}

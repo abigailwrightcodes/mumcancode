@@ -1,0 +1,60 @@
+import React, { useEffect, useState } from "react"; import
+
+
+
+
+function Sections() { return (
+<div className="sections-main-container">
+  <Navbar />
+  <section className="section section-welcome">
+    <div className="welcome-section-container">
+      <div class="welcome-row-1">
+        <div class="welcome-text"><h1>Hello and Welcome to</h1></div>
+        <div class="welcome-logo"><h1>Mum can code</h1></div>
+        <div class="welcome-background-img">
+          <img
+            src=""
+            alt=""
+            className="welcomeBackgroundImage"
+          />
+        </div>
+      </div>
+
+      <div class="welcome-row-2">
+        <div class="intro-text">
+          <p>
+            Embark on an epic adventure with me - a tech-savvy mum turned coding
+            superhero! From school runs to debugging sessions, my days are a
+            whirlwind of challenges and triumphs, all in pursuit of creating my
+            dream app. I'm on a mission to prove that with determination and a
+            passion for learning, anyone can conquer the digital realm, no
+            matter their starting point. Join me as I break barriers and
+            champion a tech future where diversity drives innovation. Through
+            late-night coding sprints and eureka moments, I'm not just building
+            an app - I'm carving out a new path for myself and inspiring others
+            to embrace theirtech aspirations. Ready to dive into this exciting
+            journey? Let's see where it takes us!
+          </p>
+        </div>
+        <div class="intro-background-img"> <img src="" alt=""  className="introBackgroundImage"></div>
+        <div class="into-cta-button"><button>Join my coding adventure</button></div>
+      </div>
+      <div class="welcome-row-3">
+        <div class="side-html-img"> <img src="" alt=""  className="sideHtmlImage"></div>
+      </div>
+    </div>
+  </section>
+
+  <section className="section section-skills">
+    <div class="experience"><h1>What can't she do?</h1></div>
+    <div class="skills"></div>
+  </section>
+
+  <section className="section section-about-me"></section>
+
+  <section className="section section-projects"></section>
+  <section className="section section-blog"></section>
+
+  <section className="section section-contact"></section>
+</div>
+); } export default Sections;
