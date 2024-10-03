@@ -1,0 +1,77 @@
+.crash-course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.crash-course-item {
+    background-color: #e6f7ff;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #b3e0ff;
+}
+.crash-course-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.time-tag {
+    background-color: #007bff;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.resources-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.resource-item {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+.resource-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.free-tag, .paid-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.free-tag {
+    background-color: #4CAF50;
+    color: white;
+}
+.paid-tag {
+    background-color: #FFC107;
+    color: #333;
+}

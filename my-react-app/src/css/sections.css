@@ -54,6 +54,13 @@ body, html {
 
 /* Sections */
 
+.section-title {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
 .sections-main-container {
   width: 100vw;
   max-width: 100%;
@@ -69,11 +76,13 @@ body, html {
   justify-content: flex-start;
   align-items: center;
   overflow: hidden;
-  padding-top: calc(var(--navbar-height) + 20px);
+padding-top: calc(var(--navbar-height) + 20px);
+padding-bottom: calc(var(--navbar-height) + 20px);
 }
 
 .section-welcome {
     background-color: var(--color-yellow);
+    align-content: center;
 }
 
 .section-skills {
@@ -81,10 +90,18 @@ body, html {
 
 }
 
-.section-about-me {
+.section-about-me-purple {
     background-color: var(--color-dark-purple);
 }
 
+.section-about-me-blue {
+  background-color: var(--color-blue);
+}
+
+
+.section-goal {
+  background-color: var(--color-pink);
+}
 .section-projects {
     background-color: var(--color-yellow);
 }
@@ -93,7 +110,12 @@ body, html {
     background-color: var(--color-dark-purple);
 }
 
-.sections-contact { 
+
+.section-shop {
+  background-color: var(--color-blue);
+}
+
+.section-contact { 
     background-color: var(--color-orange);
 }
 
@@ -186,8 +208,8 @@ align-items: center;
 
 
 .sideHtmlImage {
-  max-height: 700px;
-  min-height: 200px;
+  max-height: 600px;
+  min-height: 100px;
 
 }
 
@@ -197,8 +219,218 @@ align-items: center;
 
 /* Experience Section */
 
-
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+}
 
 .experienceImage {
   max-width: 750px;
+}
+
+
+.workImage {
+  max-width: 750px;
+}
+
+
+.teal-box{
+  background-color: var(--color-blue);
+  width: 263px;
+  height: 410px;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+ 
+}
+
+.pink-box {
+  background-color: var(--color-pink);
+  width: 263px;
+  height: 410px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.skills-box-web-design {
+  grid-column: 3 / 3;
+  grid-row: 2 / 3;
+}
+
+.skills-box-web-development {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+
+
+
+
+/* Skills Section */
+
+.skills-section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.workImage {
+  max-height: 800px;
+}
+
+.page-break-container {
+  background-color: var(--color-yellow);
+  height: 450px;
+  width: 90%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.box1 {
+  background-color: var(--color-blue);
+}
+
+.box2 {
+  background-color: var(--color-pink);
+}
+
+.box3 {
+  background-color: var(--color-orange);
+}
+
+
+/* ABOUT ME */
+
+.my-coding-journey {
+ border: 5px var(--color-blue) solid;
+  height: 450px;
+  width: 90%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.aboutMeImage {
+  width: 800px;
+  height: 500px;
+}
+
+.why-i-code {
+  border: 5px var(--color-pink) solid;
+  height: 45vh;
+  width: 90%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+ 
+
+}
+
+.laptopImage {
+  width: 300px;
+  height: 300px;
+
+}
+
+.why-a-blog {
+  border: 5px var(--color-yellow) solid;
+  height: 45vh;
+  width: 90%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+.lightbulbImage {
+  width: 300px;
+  height: 300px;
+}
+.the-goal {
+  border: 5px var(--color-yellow) solid;
+  height: 600px;
+  width: 90%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+
+}
+
+.teamworkImage {
+  width: 500px;
+  height: 500px;
+}
+
+
+/* PROJECTS */
+.section-projects {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-section-container {
+  display: flex;
+  width: 100%;
+
+}
+
+.projects-left {
+  flex: 1;
+ 
+}
+
+.projects-right {
+  flex: 1;
+  display: flex;
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%; 
+  width: 100%; 
+  
+}
+
+.projects-grid > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  height: calc((var(--vh, 1vh) * 100) / 3);
+
+}
+
+.project-1 { background-color: var(--color-blue); }
+.project-2 { background-color: var(--color-pink); }
+.project-3 { background-color: var(--color-light-purple); }
+.project-4 { background-color: var(--color-orange); }
+.project-5 { background-color: var(--color-dark-purple); }
+.project-6 { background-color: var(--color-yellow); }
+
+
+.project-title {
+  font-size: 20px;
+  font-family: "fira code";
+  color: white;
 }

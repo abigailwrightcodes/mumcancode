@@ -13,10 +13,13 @@ return (
 <div className="navLinksContainer">
  <ul>
 <li className='navBarLink' href="home">Home</li>
+<li className='navBarLink' href="skills">Skills</li>
 <li className='navBarLink' href="about">About me</li>
 <li className='navBarLink' href="projects">Projects</li>
+<li className='navBarLink' href="blog">Blog</li>
+<li className='navBarLink' href="shop">Shop</li>
 <li className='navBarLink' href="contact">Contact</li>
-<li className='navBarLink' href="skills">Skills</li>
+
 </ul>
 </div>
 
