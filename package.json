@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.36.4"
   }
 }
